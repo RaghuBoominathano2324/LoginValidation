@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+h1{
+    background-color: transparent;
+    opacity: 0.6;
+    color: #6b800fca;
+    box-shadow: 0 0 25px rgb(227, 141, 3);
+}
+
+
+
+h3{
+    background-color: transparent;
+    opacity: 0.6;
+    color: #54360f;
+    box-shadow: 0 0 25px rgb(206, 6, 36);
+}
+
+
+h1,h3:hover{
+    background: linear-gradient(rgb(39, 17, 1),rgb(128, 0, 0));
+    box-shadow: 2 4 30px rgb(64, 8, 86);
+  color: white;
+}
+
+.MainContiner{
+
+background-image: url(BackGroundIcon.png);
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+#form{
+    width: 55%;
+    height: 45%;
+background-color: transparent;
+background: linear-gradient(to right, rgb(11, 30, 83), red);
+opacity: 0.6;
+border: 2px solid #f73f08ca;
+box-shadow: 0 0 25px rgb(227, 141, 3);
+
+
+
+
+}
+#submit{
+    box-shadow: 0 0 25px #c44ea1b2;
+}
+
+#submit:hover{
+    background-color: rgb(26, 26, 74);
+    color: rgb(11, 245, 120);
+    font-weight: bold;
+}
+
+.error{
+/* background-color: transparent; */
+color: darkred;
+
+}
+#email1,#age1,#GName,#message1,#Name{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 98, 0);
+    /* color: #100b079a; */
+    color: white;
+    border-radius: 45px;
+}
+input{
+    width: 35;
+    height: 50px;
+    margin-top: 25px;
+  
+}
+
+
+
+#GNameT:focus{
+    background-color: rgb(44, 2, 2);
+}
+
+
+#message1:focus{
+    background-color: rgb(44, 2, 2);
+}
+
+
+
+
+#CONTACT:focus{
+    background-color: rgb(44, 2, 2);
+}
+
+
+
+
+#age1:focus{
+    background-color: rgb(44, 2, 2);
+}
+#EmailAddres:focus{
+    background-color: rgb(44, 2, 2);
+}
+#Name:focus{
+    background-color: rgb(44, 2, 2);
+}
+#GName:focus{
+    background-color: rgb(44, 2, 2);
+}

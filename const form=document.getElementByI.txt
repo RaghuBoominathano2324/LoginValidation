@@ -1,0 +1,214 @@
+// // const form=document.getElementById('form');
+// // const nameA=document.getElementById('Name');
+// // const gname=document.getElementById('GName');
+// // const email=document.getElementById('email1');
+
+// // const age=document.getElementById('age1');
+// // const message=document.getElementById('message1');
+
+// // const setError=(element,message1)=>{
+// // const inputControl=element.parentElement;
+// // const errorDisplay=inputControl.querySelector('.error');
+
+// // errorDisplay.innerText=message1;
+// // inputControl.classList.add('error');
+
+
+
+// // inputControl.classList.remove('sucess');
+
+// // }
+
+// // const setSucess=element=>{
+// // const inputControl=element.parentElement;
+
+// // const errorDisplay=inputControl.querySelector('.error');
+// // errorDisplay.innerText='';
+
+// // inputControl.classList.add ('sucess');
+
+// // inputControl.classList.remove('error');
+
+
+
+// // };
+
+
+
+
+// // form.addEventListener('submit',e=>{
+
+// //     e.preventDefault();
+// //     validateInputs();
+// // });
+
+
+
+// // const validateInputs=()=>{
+// // name1=nameA.value.trim();
+// // gname1=gname.value.trim();
+// // email1=email.value.trim();
+// // age1=age.value.trim();
+// // msg=message.value.trim();
+
+
+
+
+
+
+
+
+// // const isValidEmail=email1=>{
+
+
+
+// //     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+// //     return re.test(String(email1).toLowerCase());
+// // }
+
+// // if(name1===''){
+      
+// // setError(nameA,'*Name is Compolsory');
+// // }else{
+// // setSucess(nameA);
+// // }
+
+
+
+
+
+
+// // if(gname1===''){
+      
+// //     setError(gname,'*Gardian name is Necessory');
+// //     }else{
+// //     setSucess(gname);
+// //     }
+
+
+
+
+
+
+// //     if(email===''){
+// //         setError(email,'*Email is Compolsory')
+// //     }else if (!isValidEmail(emailValue)) {
+// //         setError(email, 'Provide a valid email address');
+// //     }
+// //      else {
+// //         setSuccess(email);
+// //     }
+
+
+
+
+
+
+
+
+
+
+
+    
+// //     else{
+// //         setSucess(age);
+// //     }
+
+// //     if(age1===''){
+// //         setError(age,'*Age is Manditory')
+// //     }
+// //     else{
+// //         setSucess(age);
+// //     }
+
+// //     if(msg===''){
+// //         setError(message,'*Write Something For Message')
+// //     }
+// //     else{
+// //         setSucess(message);
+// //     }
+
+
+
+
+
+
+
+
+
+
+// // };
+// const form = document.getElementById('form');
+// const nameA = document.getElementById('Name');
+// const gname = document.getElementById('GName');
+// const email = document.getElementById('email1');
+// const age = document.getElementById('age1');
+// const message = document.getElementById('message1');
+
+// const setError = (element, message1) => {
+//     const inputControl = element.parentElement;
+//     const errorDisplay = inputControl.querySelector('.error');
+
+//     errorDisplay.innerText = message1;
+//     inputControl.classList.add('error');
+//     inputControl.classList.remove('success');
+// };
+
+// const setSuccess = (element) => {
+//     const inputControl = element.parentElement;
+//     const errorDisplay = inputControl.querySelector('.error');
+
+//     errorDisplay.innerText = '';
+//     inputControl.classList.add('success');
+//     inputControl.classList.remove('error');
+// };
+
+// form.addEventListener('submit', (e) => {
+//     e.preventDefault();
+//     validateInputs();
+// });
+
+// const validateInputs = () => {
+//     const name1 = nameA.value.trim();
+//     const gname1 = gname.value.trim();
+//     const email1 = email.value.trim();
+//     const age1 = age.value.trim();
+//     const msg = message.value.trim();
+
+//     const isValidEmail = (email1) => {
+//         const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+//         return re.test(String(email1).toLowerCase());
+//     };
+
+//     if (name1 === '') {
+//         setError(nameA, '*Name is compulsory');
+//     } else {
+//         setSuccess(nameA);
+//     }
+
+//     if (gname1 === '') {
+//         setError(gname, '*Guardian name is necessary');
+//     } else {
+//         setSuccess(gname);
+//     }
+
+//     if (email1 === '') {
+//         setError(email, '*Email is compulsory');
+//     } else if (!isValidEmail(email1)) {
+//         setError(email, 'Provide a valid email address');
+//     } else {
+//         setSuccess(email);
+//     }
+
+//     if (age1 === '') {
+//         setError(age, '*Age is mandatory');
+//     } else {
+//         setSuccess(age);
+//     }
+
+//     if (msg === '') {
+//         setError(message, '*Write something for the message');
+//     } else {
+//         setSuccess(message);
+//     }
+// };
